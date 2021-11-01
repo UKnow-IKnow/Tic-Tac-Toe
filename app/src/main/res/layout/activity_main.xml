@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1c0f2a"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/displytv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="55dp"
+        android:fontFamily="@font/nosifer"
+        android:textColor="#dfb7ff"
+        android:text="Player X turn"
+        android:textSize="29dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button2"
+            android:fontFamily="@font/creepster"
+            android:textColor="@color/white"
+            android:textSize="97sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button2"
+            android:fontFamily="@font/creepster"
+            android:textColor="@color/white"
+            android:textSize="97sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_button2"
+            android:layout_weight="1"
+            android:fontFamily="@font/creepster"
+            android:textColor="@color/white"
+            android:textSize="97sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/creepster"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button2"
+            android:textSize="97sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_button2"
+            android:layout_weight="1"
+            android:fontFamily="@font/creepster"
+            android:textColor="@color/white"
+            android:textSize="97sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/creepster"
+            android:background="@drawable/custom_button2"
+            android:textColor="@color/white"
+            android:textSize="97sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/creepster"
+            android:background="@drawable/custom_button2"
+            android:textColor="@color/white"
+            android:textSize="97sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_button2"
+            android:layout_weight="1"
+            android:fontFamily="@font/creepster"
+            android:textColor="@color/white"
+            android:textSize="97sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="0dp"
+            android:background="@drawable/custom_button2"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/creepster"
+            android:textColor="@color/white"
+            android:textSize="97sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/resetbtn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/noticia_text"
+        android:padding="10dp"
+        android:text="reset"
+        android:textColor="#dfb7ff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
